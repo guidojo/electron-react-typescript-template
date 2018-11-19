@@ -1,0 +1,48 @@
+{
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": false,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.associations": {
+      "**/.ebextensions/*.config": "yaml"
+    },
+    "git.autofetch": false,
+    "search.exclude": {
+      "node_modules": true,
+      "testResults": true,
+      "**/dist": true
+    },
+    // Prettier
+    "[typescript]": {
+      "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+      "editor.formatOnSave": true
+    },
+    "[css]": {
+      "editor.formatOnSave": true
+    },
+    "[scss]": {
+      "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+      "editor.formatOnSave": true
+    },
+    "[javascript]": {
+      "editor.formatOnSave": true
+    },
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 120,
+    "prettier.disableLanguages": [
+      "css", "scss"
+    ],
+    // Plugins
+    "csscomb.formatOnSave": true,
+    "csscomb.preset": ".csscomb.json",
+    "csscomb.ignoreFilesOnSave": [
+      "**/_variables.scss",
+      "**/_custom-variables.scss"
+    ],
+    "git.ignoreLimitWarning": true
+  }

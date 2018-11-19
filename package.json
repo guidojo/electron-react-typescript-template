@@ -1,0 +1,22 @@
+{
+  "name": "react-photo-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
+    "electron": "^3.0.6",
+    "typescript": "^3.1.4"
+  },
+  "dependencies": {
+    "prettier": "^1.14.3",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
